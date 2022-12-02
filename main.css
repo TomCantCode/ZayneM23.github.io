@@ -3,13 +3,19 @@ ul {
     padding: 0;
     list-style-type: none;
     background-color: #D9D9D9;
+    overflow: hidden;
     border-radius: 0px 0px 20px 20px;
+}
+
+li {
+    float: left;
 }
 
 li a{
     display: inline;
     background-color: #C5C5C5;
     text-decoration: none;
+    padding: 16px 16px;
 }
 
 li a:hover{

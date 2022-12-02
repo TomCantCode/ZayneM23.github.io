@@ -25,10 +25,9 @@ li a{
     border-radius: 0px 0px 10px 10px;
 }
 
-li a:hover{ 
+li a:hover:not(.active) {
     background-color: #ABABAB;
-}
-
+  }
 .active{
     background-color: #DE4646;
 }

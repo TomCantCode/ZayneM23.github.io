@@ -9,15 +9,26 @@ ul {
 
 li {
     float: left;
+    border-right: 6px #D9D9D9;
+}
+
+li:last-child{
+    border-right: none;
 }
 
 li a{
-    display: inline;
+    display: block;
     background-color: #C5C5C5;
     text-decoration: none;
-    padding: 16px 16px;
+    padding: 15px 16px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
 }
 
 li a:hover{
     background-color: #ABABAB;
+}
+
+.active{
+    background-color: #DE4646;
 }
